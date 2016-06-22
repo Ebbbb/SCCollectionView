@@ -63,6 +63,9 @@
         return footer;
     }];
     [collectionView setInfoWithDataSource:@[@[@{@"title":@"cell",@"size":@"0"},@{@"title":@"cell",@"size":@"1"},@{@"title":@"cell",@"size":@"2"},@{@"title":@"cell",@"size":@"3"},@{@"title":@"cell",@"size":@"4"}],@[@{@"title":@"cell",@"size":@"0"},@{@"title":@"cell",@"size":@"1"},@{@"title":@"cell",@"size":@"2"},@{@"title":@"cell",@"size":@"3"},@{@"title":@"cell",@"size":@"4"}]]];
+    [collectionView setCellResponseBlock:^(NSDictionary *data, NSIndexPath *indexPath) {
+        NSLog(@"section %ld row %ld",indexPath.section,indexPath.row);
+    }];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
