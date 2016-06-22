@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SCCollectionView/&#x81ea;&#x5b9a;&#x4e49;CollectionView/SCFullImgCollectCell.m"
-            timestampString = "488189689.290933"
+            filePath = "SCCollectionView/&#x81ea;&#x5b9a;&#x4e49;CollectionView/SCCollectionView.m"
+            timestampString = "488254953.498721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-getSubCellSize"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-collectionView:layout:sizeForItemAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SCCollectionView/&#x81ea;&#x5b9a;&#x4e49;CollectionView/SCFullImgCollectCell.m"
-            timestampString = "488189713.790073"
+            filePath = "SCCollectionView/&#x81ea;&#x5b9a;&#x4e49;CollectionView/SCCollectionView.m"
+            timestampString = "488254963.984187"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "-dealWithData:"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -28,7 +28,7 @@ typedef UICollectionReusableView*(^SCCollectionViewSectionHeaderBlock)(UICollect
 - (void)setCellResponseBlock:(SCCollectionViewCellResponseBlock)cellResponseBlock;
 
 //cell选择方法。
-//请将此方法的执行，放在数据加载之前（在tableView初始化行高会用到此方法）。
+//请将此方法的执行，放在数据加载之前（在collectionview初始化行高会用到此方法）。
 - (void)setCellChooseBlock:(SCCollectionViewCellChooseBlock)cellChooseBlock;
 
 //设置sectionheader
